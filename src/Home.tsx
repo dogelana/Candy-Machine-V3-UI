@@ -280,7 +280,7 @@ const Home = (props: HomeProps) => {
     <main>
       <>
         <Header>
-          {/* <Link href='/'>
+          {/* <Link href='https://www.dogelana.com/bonkcards'>
             <img
               style={{
                 maxWidth: '200px',
@@ -331,12 +331,12 @@ const Home = (props: HomeProps) => {
               <p>
               There are 2,222 unique BonkCards floating around the Solana blockchain. Special perks from the Dogelana community await the holders!
 
-              <p>If you hold at least 1 million BONK, please enjoy ONE FREE MINT!</p>
+              <p>If you hold at least 1 million BONK, please enjoy ONE FREE MINT! Everyone should get ONE free mint and ONE only!</p>
                 
                 <p>Your BONK balance will NOT change!</p>
 
                 <p>ALERT: You will be requested to complete the Civic Pass CAPTCHA process before minting!</p>
-                  <p>WARNING: If you try to mint more than one, you will be charged a fee!</p>
+                  <p>WARNING: If you try to mint more than one, the transaction will fail and you will be charged a fee!</p>
               </p>
 
               {guardStates.isStarted && (
