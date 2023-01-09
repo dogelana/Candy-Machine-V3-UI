@@ -70,6 +70,10 @@ export const Root = styled('div')`
     -webkit-transform: scale(0.95);
   }
 
+  .MuiCard-root {
+    width: 30em;
+  }
+
   .cloud-2 {
     animation: animate-2 37s linear infinite;
     -webkit-animation: animate-2 87s linear infinite;
