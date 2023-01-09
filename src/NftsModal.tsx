@@ -68,7 +68,7 @@ export default function NftsModal({
       maxWidth={"md"}
     >
       <DialogTitle id="alert-dialog-slide-title">
-        Congratulations on your new BonkCard!
+        Congratulations on your new BonkCard(s)!
       </DialogTitle>
       <DialogContent>
         <DialogContentText id="alert-dialog-slide-description">
