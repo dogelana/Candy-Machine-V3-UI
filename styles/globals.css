@@ -60,6 +60,10 @@ code {
 }
 
 
+.MuiCard-root {
+  width: 30em;
+}
+
 .wallet-adapter-modal-wrapper {
   background: #ffffff;
 }
