@@ -68,7 +68,7 @@ export default function NftsModal({
       maxWidth={"md"}
     >
       <DialogTitle id="alert-dialog-slide-title">
-        Nfts you had just minted!
+        Congratulations on your new BonkCard!
       </DialogTitle>
       <DialogContent>
         <DialogContentText id="alert-dialog-slide-description">
@@ -114,7 +114,7 @@ export default function NftsModal({
                     </CardContent>
                   </CardActionArea>
                   <CardActions >
-                    <Action style={{width: "100%"}} onClick={() => openOnSolscan(nft.address.toString())}>View on solscan</Action>
+                    <Action style={{width: "100%"}} onClick={() => openOnSolscan(nft.address.toString())}>View on SolScan</Action>
                   </CardActions>
                 </Card>
               </Grid>

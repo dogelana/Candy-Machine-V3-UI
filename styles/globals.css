@@ -1,6 +1,6 @@
 /* Customize your main colors in :root variables */
 :root {
-  --main-background-color: #000;
+  --main-background-color: #0ba15b;
   --card-background-color: #804980;
   --countdown-background-color: #433765;
   --main-text-color: #f7f6f4;
@@ -42,7 +42,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #000;
+  background-color: #0ba15b;
   color: #ffffff;
 }
 

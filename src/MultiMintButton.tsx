@@ -154,7 +154,7 @@ export const MultiMintButton = ({
   }, [mintCount, prices]);
   const totalTokenCostsString = useMemo(() => {
     return totalTokenCosts.reduce(
-      (text, price) => `${text} + ${price.price} ${price.label}`,
+      (text, price) => `${text} (Must hold at least 1,000,000 BONK!)`,
       ""
     );
   }, [totalTokenCosts]);
@@ -303,7 +303,7 @@ export const MultiMintButton = ({
       </div>
       {!isSoldOut && isActive && (
         <h3>
-          Total estimated cost (Solana fees included): {totalSolCost} SOL
+          Total Cost: {totalSolCost} SOL
           {totalTokenCostsString}
         </h3>
       )}

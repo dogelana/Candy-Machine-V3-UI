@@ -283,7 +283,6 @@ const Home = (props: HomeProps) => {
           {/* <Link href='/'>
             <img
               style={{
-                filter: 'invert(1)',
                 maxWidth: '200px',
                 marginLeft: 30,
                 marginTop: 10,
@@ -321,7 +320,6 @@ const Home = (props: HomeProps) => {
                 <Link href="/">
                   <img
                     style={{
-                      filter: "invert(1)",
                       maxWidth: "350px",
                     }}
                     src="/logo.png"
@@ -331,13 +329,19 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-                6942 Rejected f00kers here to f00k shit up. 3 mints max per
-                wallet. Free. f00k f00k Mother f00kers.
+              There are 2,222 unique BonkCards floating around the Solana blockchain. Special perks from the Dogelana community await the holders!
+
+              <p>If you hold at least 1 million BONK, please enjoy ONE FREE MINT!</p>
+                
+                <p>Your BONK balance will NOT change!</p>
+
+                <p>ALERT: You will be requested to complete the Civic Pass CAPTCHA process before minting!</p>
+                  <p>WARNING: If you try to mint more than one, you will be charged a fee!</p>
               </p>
 
               {guardStates.isStarted && (
                 <MintCount>
-                  Total Minted : {candyMachineV3.items.redeemed}/
+                  Total Minted: {candyMachineV3.items.redeemed}/
                   {candyMachineV3.items.available}{" "}
                   {(guards?.mintLimit?.mintCounter?.count ||
                     guards?.mintLimit?.settings?.limit) && (
@@ -409,7 +413,7 @@ const Home = (props: HomeProps) => {
                 {[...Array(21)].map((item, index) => (
                   <img
                     key={index}
-                    src={`/nfts/${index + 1}.jpeg`}
+                    src={`/nfts/${index + 1}.png`}
                     height="200px"
                     width="200px"
                     alt=""
@@ -424,7 +428,7 @@ const Home = (props: HomeProps) => {
                 {[...Array(21)].map((item, index) => (
                   <img
                     key={index}
-                    src={`/nfts/${index + 1}.jpeg`}
+                    src={`/nfts/${index + 1}.png`}
                     height="200px"
                     width="200px"
                     alt=""
