@@ -5,7 +5,7 @@ export const network = (process.env.NEXT_PUBLIC_SOLANA_NETWORK ||
   WalletAdapterNetwork.Mainnet) as WalletAdapterNetwork;
 
 export const rpcHost =
-  "https://ssc-dao.genesysgo.net";
+  "https://mainnet-beta.solflare.network";
 
 export const candyMachineId = new PublicKey(
   process.env.NEXT_PUBLIC_CANDY_MACHINE_ID ||
