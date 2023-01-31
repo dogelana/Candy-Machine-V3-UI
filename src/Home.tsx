@@ -332,7 +332,7 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-              There are 5,555 unique Dogelana NFTs now joining the Solana blockchain. The Solana ecosystem is set to explode over the next 5 years and Dogelana will be at the forefront of it all!
+              Minting has been paused for 10 minutes for maintenance!
               </p>
 
               {guardStates.isStarted && (
