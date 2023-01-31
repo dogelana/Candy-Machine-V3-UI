@@ -317,7 +317,7 @@ const Home = (props: HomeProps) => {
 
             <Hero>
               <Heading>
-                <Link href="/">
+                <Link href="https://www.dogelana.com">
                   <img
                     style={{
                       maxWidth: "350px",
@@ -326,10 +326,13 @@ const Home = (props: HomeProps) => {
                     alt="logo"
                   />
                 </Link>
+
+
+
               </Heading>
 
               <p>
-              There are 2,222 unique BonkCards floating around the Solana blockchain. Special perks from the Dogelana community await the holders!
+              There are 5,555 unique Dogelana NFTs now joining the Solana blockchain. The Solana ecosystem is set to explode over the next 5 years and Dogelana will be at the forefront of it all!
               </p>
 
               {guardStates.isStarted && (
@@ -406,7 +409,7 @@ const Home = (props: HomeProps) => {
                 {[...Array(21)].map((item, index) => (
                   <img
                     key={index}
-                    src={`/nfts/${index + 1}.png`}
+                    src={`/nfts/${index + 1}.jpg`}
                     height="200px"
                     width="200px"
                     alt=""
