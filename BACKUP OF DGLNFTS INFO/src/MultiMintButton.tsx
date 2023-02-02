@@ -154,7 +154,7 @@ export const MultiMintButton = ({
   }, [mintCount, prices]);
   const totalTokenCostsString = useMemo(() => {
     return totalTokenCosts.reduce(
-      (text, price) => `${text} (Must hold at least 20,000 Dogelana (DGLN) token!)`,
+      (text, price) => `${text} (Must hold at least 1 Dogelana (DGLN) token!)`,
       ""
     );
   }, [totalTokenCosts]);

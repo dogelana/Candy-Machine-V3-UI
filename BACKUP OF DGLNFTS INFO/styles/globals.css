@@ -39,8 +39,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-size: 15%;
-  background-color: rgb(255, 209, 2);
-  color: black;
+  background-image: url(https://www.dogelana.com/images/mintbgpattern.png);
+  color: #ffffff;
 }
 
 h2,

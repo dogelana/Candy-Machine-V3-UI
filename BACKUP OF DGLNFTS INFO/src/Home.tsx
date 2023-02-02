@@ -280,7 +280,7 @@ const Home = (props: HomeProps) => {
     <main>
       <>
         <Header>
-          {/* <Link href='https://www.dogelana.com/nfts'>
+          {/* <Link href='https://www.dogelana.com/bonkcards'>
             <img
               style={{
                 maxWidth: '200px',
@@ -317,7 +317,7 @@ const Home = (props: HomeProps) => {
 
             <Hero>
               <Heading>
-                <Link href="https://www.dogelana.com/nfts">
+                <Link href="https://www.dogelana.com">
                   <img
                     style={{
                       maxWidth: "350px",
@@ -332,7 +332,7 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-              There are 5,555 rewarding Golden Tickets flying into the Solana blockchain. In Dogelana Royale, players holding our special Golden Tickets will engage in a thrilling round-robin elimination game, where tickets are systematically and randomly eliminated until only one player remains and is crowned the winner. With each game, the Golden Tickets will be reactivated, offering endless opportunities for players to compete and showcase their Dogelana spirit.
+              There are 5,555 unique Dogelana NFTs now joining the Solana blockchain. The Solana ecosystem is set to explode over the next 5 years and Dogelana will be at the forefront of it all!
               </p>
 
               {guardStates.isStarted && (
@@ -403,7 +403,36 @@ const Home = (props: HomeProps) => {
               setMintedItems={setMintedItems}
             />
           </StyledContainer>
-
+          <NftWrapper>
+            <div className="marquee-wrapper">
+              <div className="marquee">
+                {[...Array(21)].map((item, index) => (
+                  <img
+                    key={index}
+                    src={`/nfts/${index + 1}.jpg`}
+                    height="200px"
+                    width="200px"
+                    alt=""
+                  />
+                ))}
+              </div>
+            </div>
+          </NftWrapper>
+          <NftWrapper2>
+            <div className="marquee-wrapper second">
+              <div className="marquee">
+                {[...Array(21)].map((item, index) => (
+                  <img
+                    key={index}
+                    src={`/nfts/${index + 1}.png`}
+                    height="200px"
+                    width="200px"
+                    alt=""
+                  />
+                ))}
+              </div>
+            </div>
+          </NftWrapper2>
         </Root>
       </>
       <Snackbar
