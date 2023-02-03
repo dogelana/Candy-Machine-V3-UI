@@ -5,7 +5,7 @@ export const network = (process.env.NEXT_PUBLIC_SOLANA_NETWORK ||
   WalletAdapterNetwork.Mainnet) as WalletAdapterNetwork;
 
 export const rpcHost =
-  "https://mainnet-beta.solflare.network";
+  "https://fittest-bold-smoke.solana-mainnet.discover.quiknode.pro/724c0f3ca62c79d270f7dcf47583e3591e0a9b31/";
 
 export const candyMachineId = new PublicKey(
   process.env.NEXT_PUBLIC_CANDY_MACHINE_ID ||
