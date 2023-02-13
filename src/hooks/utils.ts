@@ -450,7 +450,7 @@ export const parseGuardStates = ({
       tokenAccount && tokenAccount.balance > guards.gate?.token.amount ? 10 : 0;
     if (!canPayFor)
       states.messages.push(
-        `Insufficient BONK!`
+        `Insufficient DGLN!`
       );
     states.canPayFor = Math.min(states.canPayFor, canPayFor);
   }

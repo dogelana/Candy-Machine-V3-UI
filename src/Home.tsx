@@ -280,7 +280,7 @@ const Home = (props: HomeProps) => {
     <main>
       <>
         <Header>
-          {/* <Link href='https://www.dogelana.com/bonkcards'>
+          {/* <Link href='https://www.dogelana.com'>
             <img
               style={{
                 maxWidth: '200px',
@@ -317,7 +317,7 @@ const Home = (props: HomeProps) => {
 
             <Hero>
               <Heading>
-                <Link href="/">
+                <Link href="https://www.dogelana.com">
                   <img
                     style={{
                       maxWidth: "350px",
@@ -326,10 +326,13 @@ const Home = (props: HomeProps) => {
                     alt="logo"
                   />
                 </Link>
+
+
+
               </Heading>
 
               <p>
-              There are 2,222 unique BonkCards floating around the Solana blockchain. Special perks from the Dogelana community await the holders!
+              There are now 222 top-tier Dogelana NFTs joining the existing Dogelana NFT collection.<p>Discover 162 Legendary and 60 Perfect Dogelana NFTs in this mint that are ready to bring the collection to the next level.</p><p>You must pay 1 SOL and burn ONE random DGLNFT to mint here.</p><p>When minting more than one, be sure to send each new mint to a different wallet so that they will not get burnt!</p>
               </p>
 
               {guardStates.isStarted && (
@@ -406,7 +409,7 @@ const Home = (props: HomeProps) => {
                 {[...Array(21)].map((item, index) => (
                   <img
                     key={index}
-                    src={`/nfts/${index + 1}.png`}
+                    src={`/nfts/${index + 1}.jpg`}
                     height="200px"
                     width="200px"
                     alt=""

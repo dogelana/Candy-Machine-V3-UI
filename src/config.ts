@@ -5,11 +5,11 @@ export const network = (process.env.NEXT_PUBLIC_SOLANA_NETWORK ||
   WalletAdapterNetwork.Mainnet) as WalletAdapterNetwork;
 
 export const rpcHost =
-  "https://mainnet-beta.solflare.network";
+  "https://fittest-bold-smoke.solana-mainnet.discover.quiknode.pro/724c0f3ca62c79d270f7dcf47583e3591e0a9b31/";
 
 export const candyMachineId = new PublicKey(
   process.env.NEXT_PUBLIC_CANDY_MACHINE_ID ||
-    "5ncMWxnT9Ai679DdZen1zXAnmCa2kXN5pgd8UYaQ6qUH"
+    "2R9Gvswj6y3M9oC91KwCXsVuB66b3LksUjnU3RBTkkUn"
 );
 export const defaultGuardGroup =
   process.env.NEXT_PUBLIC_DEFAULT_GUARD_GROUP || undefined;
