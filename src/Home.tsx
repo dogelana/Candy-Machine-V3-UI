@@ -332,8 +332,7 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-              There are now 222 top-tier Dogelana NFTs joining the existing Dogelana NFT collection.<p>Discover 162 Legendary and 60 Perfect Dogelana NFTs in this mint that are ready to bring the collection to the next level.</p><p>You must pay 1 SOL and burn ONE random DGLNFT to mint here.</p><p>When minting more than one, be sure to send each new mint to a different wallet so that they will not get burnt!</p>
-              </p>
+              There are now 222 top-tier Dogelana NFTs joining the existing Dogelana NFT collection.<p>Discover 162 Legendary and 60 Perfect Dogelana NFTs in this mint that are ready to bring the collection to the next level.</p>               </p>
 
               {guardStates.isStarted && (
                 <MintCount>
