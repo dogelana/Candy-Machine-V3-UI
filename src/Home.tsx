@@ -280,7 +280,7 @@ const Home = (props: HomeProps) => {
     <main>
       <>
         <Header>
-          {/* <Link href='https://www.dogelana.com'>
+          {/* <Link href='https://www.dogelana.com/'>
             <img
               style={{
                 maxWidth: '200px',
@@ -332,7 +332,8 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-              There are now 222 top-tier Dogelana NFTs joining the existing Dogelana NFT collection.<p>Discover 162 Legendary and 60 Perfect Dogelana NFTs in this mint that are ready to bring the collection to the next level.</p>               </p>
+              As the night falls, 5,000 3D GhostKids emerge from the shadows, bringing a new realm of eeriness to the Solana blockchain. Prepare to be bewitched as these new 3D GhostKids immerse you in a world like no other. And with the Solana ecosystem on the brink of explosion, Dogelana is leading the charge into this uncharted territory. Join the GhostKids revolution today and discover the secrets that lie within.
+              </p>
 
               {guardStates.isStarted && (
                 <MintCount>
@@ -423,7 +424,7 @@ const Home = (props: HomeProps) => {
                 {[...Array(21)].map((item, index) => (
                   <img
                     key={index}
-                    src={`/nfts/${index + 1}.png`}
+                    src={`/nfts/${index + 21}.jpg`}
                     height="200px"
                     width="200px"
                     alt=""

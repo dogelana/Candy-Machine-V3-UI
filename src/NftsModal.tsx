@@ -68,7 +68,7 @@ export default function NftsModal({
       maxWidth={"md"}
     >
       <DialogTitle id="alert-dialog-slide-title">
-        Congratulations on your new Dogelana NFT(s)!
+        Congratulations on your new 3D GhostKid(s)!
       </DialogTitle>
       <DialogContent>
         <DialogContentText id="alert-dialog-slide-description">
