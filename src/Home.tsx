@@ -425,8 +425,8 @@ const Home = (props: HomeProps) => {
                   <img
                     key={index}
                     src={`/nfts/${index + 1}.jpg`}
-                    height="200px"
-                    width="200px"
+                    height="0px"
+                    width="0px"
                     alt=""
                   />
                 ))}
