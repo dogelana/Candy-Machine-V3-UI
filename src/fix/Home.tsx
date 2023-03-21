@@ -280,7 +280,7 @@ const Home = (props: HomeProps) => {
     <main>
       <>
         <Header>
-          {/* <Link href='https://www.dogelana.com/'>
+          {/* <Link href='https://www.dogelana.com'>
             <img
               style={{
                 maxWidth: '200px',
@@ -382,7 +382,7 @@ const Home = (props: HomeProps) => {
                         gatekeeperNetwork={guards.gatekeeperNetwork}
                         connection={connection}
                         cluster={
-                          process.env.NEXT_PUBLIC_SOLANA_NETWORK || "mainnet"
+                          process.env.NEXT_PUBLIC_SOLANA_NETWORK || "devnet"
                         }
                         options={{ autoShowModal: false }}
                       >
@@ -424,9 +424,9 @@ const Home = (props: HomeProps) => {
                 {[...Array(21)].map((item, index) => (
                   <img
                     key={index}
-                    src={`/nfts/${index + 1}.jpg`}
-                    height="0px"
-                    width="0px"
+                    src={`/nfts/${index + 1}.png`}
+                    height="200px"
+                    width="200px"
                     alt=""
                   />
                 ))}
