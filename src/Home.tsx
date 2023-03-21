@@ -280,7 +280,7 @@ const Home = (props: HomeProps) => {
     <main>
       <>
         <Header>
-          {/* <Link href='https://www.dogelana.com/bonkcards'>
+          {/* <Link href='https://www.dogelana.com/'>
             <img
               style={{
                 maxWidth: '200px',
@@ -332,7 +332,7 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-              There are 5,555 unique Dogelana NFTs now joining the Solana blockchain. The Solana ecosystem is set to explode over the next 5 years and Dogelana will be at the forefront of it all!
+              MINT NOT READY YET Experience the unbridled strength and unyielding spirit of 5,555 3D OLAFs, a fan-art derivative collection by Dogelana of NFTs that exude boldness and power.
               </p>
 
               {guardStates.isStarted && (
@@ -424,7 +424,7 @@ const Home = (props: HomeProps) => {
                 {[...Array(21)].map((item, index) => (
                   <img
                     key={index}
-                    src={`/nfts/${index + 1}.png`}
+                    src={`/nfts/${index + 1}.jpg`}
                     height="200px"
                     width="200px"
                     alt=""
