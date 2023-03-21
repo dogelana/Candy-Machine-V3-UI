@@ -154,7 +154,7 @@ export const MultiMintButton = ({
   }, [mintCount, prices]);
   const totalTokenCostsString = useMemo(() => {
     return totalTokenCosts.reduce(
-      (text, price) => `${text} (Must burn 100,000 Dogelana (DGLN) tokens per NFT!)`,
+      (text, price) => `${text} (Must hold at least 1 OLAF 3D Mint Token!)`,
       ""
     );
   }, [totalTokenCosts]);
