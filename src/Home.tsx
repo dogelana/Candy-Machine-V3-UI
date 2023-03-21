@@ -280,7 +280,7 @@ const Home = (props: HomeProps) => {
     <main>
       <>
         <Header>
-          {/* <Link href='https://www.dogelana.com/'>
+          {/* <Link href='https://www.dogelana.com'>
             <img
               style={{
                 maxWidth: '200px',
@@ -332,7 +332,7 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-              Experience the unbridled strength and unyielding spirit of 5,555 3D OLAFs.
+              Experience the unbridled strength and unyielding spirit of 5,555 3D OLAFs, a fan-art derivative collection by Dogelana of NFTs that exude boldness and power!
               </p>
 
               {guardStates.isStarted && (
@@ -382,7 +382,7 @@ const Home = (props: HomeProps) => {
                         gatekeeperNetwork={guards.gatekeeperNetwork}
                         connection={connection}
                         cluster={
-                          process.env.NEXT_PUBLIC_SOLANA_NETWORK || "mainnet"
+                          process.env.NEXT_PUBLIC_SOLANA_NETWORK || "devnet"
                         }
                         options={{ autoShowModal: false }}
                       >
@@ -425,8 +425,8 @@ const Home = (props: HomeProps) => {
                   <img
                     key={index}
                     src={`/nfts/${index + 1}.jpg`}
-                    height="0px"
-                    width="0px"
+                    height="200px"
+                    width="200px"
                     alt=""
                   />
                 ))}
