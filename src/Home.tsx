@@ -382,7 +382,7 @@ const Home = (props: HomeProps) => {
                         gatekeeperNetwork={guards.gatekeeperNetwork}
                         connection={connection}
                         cluster={
-                          process.env.NEXT_PUBLIC_SOLANA_NETWORK || "mainnet"
+                          process.env.NEXT_PUBLIC_SOLANA_NETWORK || "devnet"
                         }
                         options={{ autoShowModal: false }}
                       >
