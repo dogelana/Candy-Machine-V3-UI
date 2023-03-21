@@ -332,7 +332,7 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-              Experience the unbridled strength and unyielding spirit of 5,555 3D OLAFs, a fan-art derivative collection by Dogelana of NFTs that exude boldness and power!
+              MINT NOT READY YET: Experience the unbridled strength and unyielding spirit of 5,555 3D OLAFs, a fan-art derivative collection by Dogelana of NFTs that exude boldness and power!
               </p>
 
               {guardStates.isStarted && (
