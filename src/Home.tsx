@@ -332,7 +332,7 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-              Experience the unbridled strength and unyielding spirit of 5,555 3D OLAFs, a fan-art derivative collection by Dogelana of NFTs that exude boldness and power!
+              BonkCards are the official game passes and reward multipliers for Dogelana's premier Web3 game BONK'N! In BONK'N, players use a flurry of clicks to earn daily Dogelana rewards. Get your bonk on today!
               </p>
 
               {guardStates.isStarted && (
@@ -409,7 +409,7 @@ const Home = (props: HomeProps) => {
                 {[...Array(21)].map((item, index) => (
                   <img
                     key={index}
-                    src={`/nfts/${index + 1}.jpg`}
+                    src={`/nfts/${index + 1}.png`}
                     height="200px"
                     width="200px"
                     alt=""
@@ -424,9 +424,9 @@ const Home = (props: HomeProps) => {
                 {[...Array(21)].map((item, index) => (
                   <img
                     key={index}
-                    src={`/nfts/${index + 1}.jpg`}
-                    height="200px"
-                    width="200px"
+                    src={`/nfts/${index + 1}.png`}
+                    height="0px"
+                    width="0px"
                     alt=""
                   />
                 ))}
