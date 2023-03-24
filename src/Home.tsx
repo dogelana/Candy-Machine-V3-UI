@@ -425,7 +425,7 @@ const Home = (props: HomeProps) => {
                 {[...Array(21)].map((item, index) => (
                   <img
                     key={index}
-                    src={`/nfts/${index + 21}.png`}
+                    src={`/nfts/${index + 1}.png`}
                     height="200px"
                     width="200px"
                     alt=""
