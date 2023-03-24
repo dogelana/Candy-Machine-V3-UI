@@ -331,9 +331,9 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-                6942 Rejected f00kers here to f00k shit up. 3 mints max per
-                wallet. Free. f00k f00k Mother f00kers.
+              BonkCards are the official game passes and reward multipliers for Dogelana&apos;s premier Web3 game BONK&apos;N! In BONK&apos;N, players use a flurry of clicks to earn daily Dogelana rewards. Get your bonk on today!
               </p>
+
 
               {guardStates.isStarted && (
                 <MintCount>
