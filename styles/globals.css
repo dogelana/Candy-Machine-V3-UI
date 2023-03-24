@@ -39,12 +39,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-size: 15%;
-  color: #ffffff;
+  color: black;
 }
 
 h2,
 p {
-  color: var(--main-text-color);
+  color: black;
 }
 
 h3 {

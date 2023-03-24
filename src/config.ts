@@ -9,7 +9,7 @@ export const rpcHost =
 
 export const candyMachineId = new PublicKey(
   process.env.NEXT_PUBLIC_CANDY_MACHINE_ID ||
-    "aaa"
+    "7gUYJ9wZkT5koVk6Hf1ARe7oqdv2mBX9LkaXiEd3QNQd"
 );
 export const defaultGuardGroup =
   process.env.NEXT_PUBLIC_DEFAULT_GUARD_GROUP || undefined;
