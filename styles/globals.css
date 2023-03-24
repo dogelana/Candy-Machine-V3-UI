@@ -1,6 +1,6 @@
 /* Customize your main colors in :root variables */
 :root {
-  --main-background-color: #000;
+  --main-background-color: #0ba15b;
   --card-background-color: #804980;
   --countdown-background-color: #433765;
   --main-text-color: #f7f6f4;
@@ -30,19 +30,16 @@
   font-style: normal;
 }
 body {
-  background-color: var(--main-background-color);
-  /* background-color: #000; */
   background-size: cover;
   font-family: 'Patrick Hand', cursive;
   font-size: 1.1em;
   
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Michroma', sans-serif;;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #000;
+  background-size: 15%;
+  background-image: url(https://www.dogelana.com/images/mintbgpattern.png);
   color: #ffffff;
 }
 
@@ -59,6 +56,10 @@ code {
     monospace;
 }
 
+
+.MuiCard-root {
+  width: 20em;
+}
 
 .wallet-adapter-modal-wrapper {
   background: #ffffff;

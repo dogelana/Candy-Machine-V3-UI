@@ -280,10 +280,9 @@ const Home = (props: HomeProps) => {
     <main>
       <>
         <Header>
-          {/* <Link href='/'>
+          {/* <Link href='https://www.dogelana.com/'>
             <img
               style={{
-                filter: 'invert(1)',
                 maxWidth: '200px',
                 marginLeft: 30,
                 marginTop: 10,
@@ -318,26 +317,27 @@ const Home = (props: HomeProps) => {
 
             <Hero>
               <Heading>
-                <Link href="/">
+                <Link href="https://www.dogelana.com">
                   <img
                     style={{
-                      filter: "invert(1)",
                       maxWidth: "350px",
                     }}
                     src="/logo.png"
                     alt="logo"
                   />
                 </Link>
+
+
+
               </Heading>
 
               <p>
-                6942 Rejected f00kers here to f00k shit up. 3 mints max per
-                wallet. Free. f00k f00k Mother f00kers.
+              As the night falls, 5,000 3D GhostKids emerge from the shadows, bringing a new realm of eeriness to the Solana blockchain. Prepare to be bewitched as these new 3D GhostKids immerse you in a world like no other. And with the Solana ecosystem on the brink of explosion, Dogelana is leading the charge into this uncharted territory. Join the GhostKids revolution today and discover the secrets that lie within.
               </p>
 
               {guardStates.isStarted && (
                 <MintCount>
-                  Total Minted : {candyMachineV3.items.redeemed}/
+                  Total Minted: {candyMachineV3.items.redeemed}/
                   {candyMachineV3.items.available}{" "}
                   {(guards?.mintLimit?.mintCounter?.count ||
                     guards?.mintLimit?.settings?.limit) && (
@@ -409,7 +409,7 @@ const Home = (props: HomeProps) => {
                 {[...Array(21)].map((item, index) => (
                   <img
                     key={index}
-                    src={`/nfts/${index + 1}.jpeg`}
+                    src={`/nfts/${index + 1}.jpg`}
                     height="200px"
                     width="200px"
                     alt=""
@@ -424,7 +424,7 @@ const Home = (props: HomeProps) => {
                 {[...Array(21)].map((item, index) => (
                   <img
                     key={index}
-                    src={`/nfts/${index + 1}.jpeg`}
+                    src={`/nfts/${index + 21}.jpg`}
                     height="200px"
                     width="200px"
                     alt=""

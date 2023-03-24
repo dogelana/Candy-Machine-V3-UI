@@ -70,6 +70,10 @@ export const Root = styled('div')`
     -webkit-transform: scale(0.95);
   }
 
+  .MuiCard-root {
+    width: 30em;
+  }
+
   .cloud-2 {
     animation: animate-2 37s linear infinite;
     -webkit-animation: animate-2 87s linear infinite;
@@ -117,8 +121,6 @@ export const Root = styled('div')`
   .cloud {
     width: 350px;
     height: 350px;
-    box-shadow: 0 16px 16px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0 16px 16px rgba(0, 0, 0, 0.1);
     position: relative;
     background: url(/mf.png);
     background-repeat: no-repeat;
@@ -680,8 +682,24 @@ export const NftWrapper = styled('div')`
       padding: 5px;
       max-width: 200px;
       border-radius: 10px;
+      animation: pulse 5s infinite;
     }
   }
+
+@keyframes pulse {
+0% {
+  filter: brightness(1);
+}
+50% {
+  filter: brightness(1.3);
+}
+
+100% {
+  filter: brightness (1);
+}
+  
+}
+
 
   @keyframes marquee {
     from {
@@ -713,6 +731,7 @@ export const NftWrapper2 = styled('div')`
       padding: 5px;
       max-width: 200px;
       border-radius: 10px;
+      animation: pulse 3s infinite;
     }
   }
 
