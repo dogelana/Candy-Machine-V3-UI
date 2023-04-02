@@ -154,7 +154,7 @@ export const MultiMintButton = ({
   }, [mintCount, prices]);
   const totalTokenCostsString = useMemo(() => {
     return totalTokenCosts.reduce(
-      (text, price) => `${text} (Must burn 100,000 Dogelana (DGLN) tokens!)`,
+      (text, price) => `${text} (Must pay 250,000 Dogelana (DGLN) tokens!)`,
       ""
     );
   }, [totalTokenCosts]);
